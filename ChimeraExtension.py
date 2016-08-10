@@ -13,11 +13,10 @@ class VisualbaderEMO(chimera.extension.EMO):
 	def name(self):
 		return 'Read mgpviz'
 	def description(self):
-		return 'Read mgpviz'
+		return 'Read AIMAll format'
 	def categories(self):
-		return ['VisualBader']
+		return ['AIMAll2']
 	def activate(self):
-		self.module('gui').ReadMsDialog()
 		return None
 	def open(self, fileName):
 		return self.module().readAIM(fileName)

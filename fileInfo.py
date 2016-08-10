@@ -7,6 +7,6 @@
 # software or any revisions or derivations thereof.
 # --- UCSF Chimera Copyright ---
 
-fileType = "AIMAll mgpviz"
+fileType = "AIMAll"
 suffixes = [".mgpviz"]
 prefixes = ["mgpviz"]
